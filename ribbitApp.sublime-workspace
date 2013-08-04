@@ -3,18 +3,14 @@
 	{
 		"selected_items":
 		[
+			[
+				"user",
+				"username"
+			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "public/style.less",
-			"settings":
-			{
-				"buffer_size": 5210,
-				"line_ending": "Windows"
-			}
-		},
 		{
 			"file": "app/views/layouts/application.html.erb",
 			"settings":
@@ -35,7 +31,7 @@
 			"file": "app/controllers/sessions_controller.rb",
 			"settings":
 			{
-				"buffer_size": 454,
+				"buffer_size": 452,
 				"line_ending": "Unix"
 			}
 		},
@@ -56,18 +52,10 @@
 			}
 		},
 		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 1724,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/controllers/application_controller.rb",
 			"settings":
 			{
-				"buffer_size": 360,
+				"buffer_size": 342,
 				"line_ending": "Unix"
 			}
 		},
@@ -77,6 +65,49 @@
 			{
 				"buffer_size": 724,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 90 files for \"userid\"\n\n0 matches across 0 files\n",
+			"settings":
+			{
+				"buffer_size": 58,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "Xdebug Context",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "Xdebug Stack",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "=> /Users/jennycoffman/Documents/Projects/ribbitApp/app/controllers/application_controller.rb\n	|+| 9\n=> /Users/jennycoffman/Documents/Projects/ribbitApp/app/controllers/sessions_controller.rb\n	|+| 7\n=> /Users/jennycoffman/Documents/Projects/ribbitApp/app/views/layouts/application.html.erb\n	|+| 12\n	|+| 13\n=> /Users/jennycoffman/Documents/Projects/ribbitApp/config/routes.rb\n	|+| 5\n",
+			"settings":
+			{
+				"buffer_size": 382,
+				"line_ending": "Unix",
+				"name": "Xdebug Breakpoint",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
@@ -91,7 +122,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 498.0
+		"width": 543.0
 	},
 	"console":
 	{
@@ -114,6 +145,8 @@
 	},
 	"file_history":
 	[
+		"/Users/jennycoffman/Documents/Projects/ribbitApp/config/routes.rb",
+		"/Users/jennycoffman/Documents/Projects/ribbitApp/public/style.less",
 		"/Users/jennycoffman/Documents/Projects/ribbitApp/Gemfile",
 		"/Users/jennycoffman/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 	],
@@ -123,9 +156,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 91.0,
 		"where_history":
 		[
+			"<open folders>"
 		]
 	},
 	"find_state":
@@ -133,6 +167,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"userid",
+			"current_user"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -150,40 +186,11 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "public/style.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5210,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5180,
-								5180
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2702.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "app/views/layouts/application.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -195,13 +202,15 @@
 						"selection":
 						[
 							[
-								400,
-								400
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -210,7 +219,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "app/models/user.rb",
 					"semi_transient": false,
 					"settings":
@@ -228,7 +237,38 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/sessions_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -238,33 +278,6 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/controllers/sessions_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 454,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								234,
-								234
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "app/controllers/users_controller.rb",
 					"semi_transient": false,
 					"settings":
@@ -276,13 +289,14 @@
 						"selection":
 						[
 							[
-								174,
-								174
+								236,
+								240
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -291,7 +305,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "app/views/users/show.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -309,35 +323,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 202.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "config/routes.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1724,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								65,
-								65
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -347,20 +334,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 5,
 					"file": "app/controllers/application_controller.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 360,
+						"buffer_size": 342,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								263,
-								263
+								0,
+								0
 							]
 						],
 						"settings":
@@ -374,7 +361,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 6,
 					"file": "app/views/users/new.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -392,10 +379,138 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 127.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								382,
+								382
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -418,22 +533,40 @@
 			[
 				0,
 				0,
-				1,
+				2,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.7,
 			1.0
 		]
 	},
 	"menu_visible": true,
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
 	"project": "ribbitApp.sublime-project",
 	"replace":
 	{
@@ -466,6 +599,75 @@
 	},
 	"settings":
 	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"14":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"15":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"16":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"17":
+				{
+					"group": 0,
+					"index": 3
+				},
+				"18":
+				{
+					"group": 0,
+					"index": 4
+				},
+				"19":
+				{
+					"group": 0,
+					"index": 5
+				},
+				"20":
+				{
+					"group": 0,
+					"index": 6
+				},
+				"21":
+				{
+					"group": 0,
+					"index": 7
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
 	},
 	"show_minimap": true,
 	"show_open_files": true,
