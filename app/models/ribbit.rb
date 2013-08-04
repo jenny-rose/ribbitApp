@@ -1,7 +1,8 @@
 class Ribbit < ActiveRecord::Base
-  default_scope order: 'createdat DESC'
-  attr_accessible :content, :userid
-  belongs_to :user
 
-  validates :content, length: { maximum: 140 }
+    default_scope order: 'created_at DESC'
+    attr_accessible :content, :userid
+    belongs_to :user
+
+    validates :content, length: { maximum: 140 }
 end
