@@ -23,13 +23,5 @@ class UsersController < ApplicationController
     ).first_or_initialize if current_user
   end
 
-  def following? user
-      self.followeds.include? user
-  end
-
-  def follow user
-    Relationship.create follower_id: self.id, followed_id: user_id
-  end
-
 
 end
