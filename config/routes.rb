@@ -1,12 +1,13 @@
 RibbitApp::Application.routes.draw do
   resources :relationships
-
   resources :ribbits
   resources :users
 
- get "sessions/new"
- post "sessions/create"
- get "sessions/destroy"
+get "sessions/new"
+post "sessions/create"
+get "sessions/destroy"
+
+get 'buddies', to: 'users#buddies', as: 'buddies'
  
   root to: 'users#new'
 
