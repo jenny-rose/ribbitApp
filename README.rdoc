@@ -1,28 +1,5 @@
-== README
+== Ribbit App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My first dip into Ruby on Rails, using the Ribbit in Rails tutorial over at Net Tuts+. I felt a little lost. I knew nothing about Ruby before attempting this tutorial, except that it was wildly popular and that it didn't use brackets to create a visual hierarchy. Not to mention this is the first time I've actually combined code and HTML to create a working web app. I did, however, have some basic programming knowledge before diving in: types of data, variables, methods, arrays, loops, etc., so I was not without a (very skimpy) life vest. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+I had a lot of fun doing this, and I have no intention of leaving this as-is. 
